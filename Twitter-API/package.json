@@ -1,0 +1,36 @@
+{
+  "name": "twitter-api",
+  "version": "0.0.0",
+  "description": "Twitter-API",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "lint": "eslint . --ext .ts",
+    "lint-fix": "eslint . --ext .ts --fix"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^14.14.7",
+    "@types/redis": "^2.8.32",
+    "@types/twit": "^2.2.30",
+    "@typescript-eslint/eslint-plugin": "^4.31.0",
+    "@typescript-eslint/parser": "^4.31.0",
+    "eslint": "^7.32.0",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.4.0",
+    "pretty-quick": "^3.1.1",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "redis": "^3.1.2",
+    "twit": "^2.2.11"
+  }
+}
